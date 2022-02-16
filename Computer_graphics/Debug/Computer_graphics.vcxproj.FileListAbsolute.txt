@@ -1,0 +1,4 @@
+E:\tried TT\Computer_graphics\Debug\Computer_graphics.exe
+E:\tried TT\Computer_graphics\Debug\Computer_graphics.pdb
+D:\Documents\OpenGL_CG\Computer_graphics\Debug\Computer_graphics.exe
+D:\Documents\OpenGL_CG\Computer_graphics\Debug\Computer_graphics.pdb
