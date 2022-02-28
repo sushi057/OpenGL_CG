@@ -21,12 +21,18 @@
     <ClCompile Include="src\math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\vec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="includes\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

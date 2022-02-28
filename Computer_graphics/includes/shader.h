@@ -33,19 +33,35 @@ public:
 		vertex = glCreateShader(GL_VERTEX_SHADER);
 		glShaderSource(vertex, 1, &vShaderCode, NULL);
 		glCompileShader(vertex);
-		checkCompileErrors(vertex, "VERTEX");
+		//checkCompileErrors(vertex, "VERTEX");
 
 		// fragment Shader
 		fragment = glCreateShader(GL_FRAGMENT_SHADER);
 		glShaderSource(fragment, 1, &fShaderCode, NULL);
 		glCompileShader(fragment);
-		checkCompileErrors(fragment, "FRAGMENT");
+		//checkCompileErrors(fragment, "FRAGMENT");
 
 		//shaderProgram
 		ID = glCreateProgram();
 		glAttachShader(ID, vertex);
-		glAttachFragment(ID, fragment);
-		glLinkProgram();
+		glAttachShader(ID, fragment);
+		glLinkProgram(ID);
+
+		/*//check link status
+		int program_linked;
+
+		GLCall(glGetProgramiv(ID, GL_LINK_STATUS, &program_linked));
+		std::cout << "Program link status: " << program_linked << std::endl;
+		if (program_linked != GL_TRUE)
+		{
+			GLsizei log_length = 0;
+			GLchar message[1024];
+			GLCall(glGetProgramInfoLog(ID, 1024, &log_length, message));
+			std::cout << "Failed to link program" << std::endl;
+			std::cout << message << std::endl;
+		}
+
+		GLCall(glValidateProgram(ID));*/
 
 		//delete shaders after compiled
 		glDeleteShader(vertex);
@@ -75,5 +91,4 @@ public:
 	}
 
 };
-
-
+#endif
