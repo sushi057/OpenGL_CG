@@ -1,5 +1,11 @@
-#include<iostream>
+//include glew
+#include <GL/glew.h>
+
+//inlcude glfw
 #include <GLFW/glfw3.h>
+
+#include <iostream>
+
 
 int main(void)
 {
@@ -7,18 +13,30 @@ int main(void)
 
     /* Initialize the library */
     if (!glfwInit())
+    {
+        fprintf(stderr, "Failed to initialize GLFW\n");
+        //getchar();
         return -1;
+    }
 
-    /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    //width and height of the window
+    const int width = 1920, height = 1400;
+    
+    //aspect ratio of the window
+    float aspectratio = float(width) / float(height);
+
+    // Create a windowed mode window and its OpenGL context 
+    window = glfwCreateWindow(width, height, "Computer Grpahics Project", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
         return -1;
     }
 
-    /* Make the window's context current */
+    /* Opengl settings and Make the window's context current */
     glfwMakeContextCurrent(window);
+
+    std::cout << "Using GL Version: " << glGetString(GL_VERSION) << std::endl;
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))

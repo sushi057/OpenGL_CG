@@ -155,6 +155,7 @@
     <ClInclude Include="includes\renderer.h" />
     <ClInclude Include="includes\shader.h" />
     <ClInclude Include="includes\vec.h" />
+    <ClInclude Include="includes\vertexbufferlayout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

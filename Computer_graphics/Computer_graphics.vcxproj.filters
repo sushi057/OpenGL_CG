@@ -41,5 +41,8 @@
     <ClInclude Include="includes\renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="includes\vertexbufferlayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
