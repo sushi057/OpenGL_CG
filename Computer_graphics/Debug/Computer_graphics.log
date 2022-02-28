@@ -1,1 +1,7 @@
-﻿  Computer_graphics.vcxproj -> D:\Documents\OpenGL_CG\Computer_graphics\Debug\Computer_graphics.exe
+﻿  vertexbuffer.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+vertexbuffer.obj : error LNK2019: unresolved external symbol __imp____glewBindBuffer referenced in function "public: __thiscall VertexBuffer::VertexBuffer(void const *,unsigned int)" (??0VertexBuffer@@QAE@PBXI@Z)
+vertexbuffer.obj : error LNK2019: unresolved external symbol __imp____glewBufferData referenced in function "public: __thiscall VertexBuffer::VertexBuffer(void const *,unsigned int)" (??0VertexBuffer@@QAE@PBXI@Z)
+vertexbuffer.obj : error LNK2019: unresolved external symbol __imp____glewDeleteBuffers referenced in function "public: __thiscall VertexBuffer::~VertexBuffer(void)" (??1VertexBuffer@@QAE@XZ)
+vertexbuffer.obj : error LNK2019: unresolved external symbol __imp____glewGenBuffers referenced in function "public: __thiscall VertexBuffer::VertexBuffer(void const *,unsigned int)" (??0VertexBuffer@@QAE@PBXI@Z)
+D:\Documents\OpenGL_CG\Computer_graphics\Debug\Computer_graphics.exe : fatal error LNK1120: 4 unresolved externals
