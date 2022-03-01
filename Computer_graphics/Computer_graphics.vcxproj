@@ -94,7 +94,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)dependencies\GLEW\lib\Release\Win32;$(SolutionDir)dependencies\GLFW\lib-vc2015</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3.lib;user32.lib;gdi32.lib;opengl32.lib;shell32.lib;glew32s.lib</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;user32.lib;gdi32.lib;opengl32.lib;shell32.lib;glew32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -113,7 +113,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)dependencies\GLEW\lib\Release\Win32;$(SolutionDir)dependencies\GLFW\lib-vc2015</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3.lib;user32.lib;gdi32.lib;opengl32.lib;shell32.lib;glew32s.lib</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;user32.lib;gdi32.lib;opengl32.lib;shell32.lib;glew32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
