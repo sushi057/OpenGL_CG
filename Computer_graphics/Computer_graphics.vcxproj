@@ -146,6 +146,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\cubeMap.cpp" />
     <ClCompile Include="src\framebuffer.cpp" />
     <ClCompile Include="src\indexbuffer.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -159,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\camera.h" />
+    <ClInclude Include="includes\cubeMap.h" />
     <ClInclude Include="includes\framebuffer.h" />
     <ClInclude Include="includes\indexbuffer.h" />
     <ClInclude Include="includes\matrix.h" />
