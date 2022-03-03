@@ -1,14 +1,7 @@
-﻿  camera.cpp
-D:\Documents\OpenGL_CG\Computer_graphics\src\camera.cpp(19,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Documents\OpenGL_CG\Computer_graphics\src\camera.cpp(51,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Documents\OpenGL_CG\Computer_graphics\src\camera.cpp(52,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Documents\OpenGL_CG\Computer_graphics\src\camera.cpp(53,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  cubeMap.cpp
-D:\Documents\OpenGL_CG\Computer_graphics\src\cubeMap.cpp(7,20): warning C4018: '<': signed/unsigned mismatch
-  framebuffer.cpp
-  indexbuffer.cpp
-  stbi_image.cpp
-  texture.cpp
+﻿  mesh.cpp
+  shader.cpp
+  vertexarray.cpp
+D:\Documents\OpenGL_CG\Computer_graphics\src\vertexarray.cpp(20,20): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Computer_graphics.vcxproj -> D:\Documents\OpenGL_CG\Computer_graphics\Debug\Computer_graphics.exe

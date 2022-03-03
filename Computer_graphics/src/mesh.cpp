@@ -15,19 +15,19 @@ void Mesh::setupMesh() {
 	VertexBufferLayout layout;
 
 	//for vertex buffer
-	layout.push<float>(3);
+	layout.AddFloat(3);
 
 	//normal coordinates
-	layout.push<float>(3);
+	layout.AddFloat(3);
 
 	//tex coordinate
-	layout.push<float>(2);
+	layout.AddFloat(2);
 
 	// For Vertex Tangent
-	layout.push<float>(3);
+	layout.AddFloat(3);
 
 	// For Vertex Bitangent
-	layout.push<float>(3);
+	layout.AddFloat(3);
 
 	vao.addBuffer(vbo, layout);
 }
@@ -40,7 +40,7 @@ void Mesh::draw(Shader& shader, bool isTextureModel) const {
 	unsigned int heightNr = 1;
 	unsigned int normalNr = 1;
 
-	shader.bind();
+	shader.Bind();
 	std::string type;
 	if (!isTextureModel) {
 		shader.setUniform("material.ambient", material.ambient);
