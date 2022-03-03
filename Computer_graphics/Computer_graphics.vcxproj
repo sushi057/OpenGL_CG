@@ -152,6 +152,7 @@
     <ClCompile Include="src\math.cpp" />
     <ClCompile Include="src\renderer.cpp" />
     <ClCompile Include="src\shader.cpp" />
+    <ClCompile Include="src\stbi_image.cpp" />
     <ClCompile Include="src\vertexarray.cpp" />
     <ClCompile Include="src\vertexbuffer.cpp" />
   </ItemGroup>
@@ -162,6 +163,7 @@
     <ClInclude Include="includes\matrix.h" />
     <ClInclude Include="includes\renderer.h" />
     <ClInclude Include="includes\shader.h" />
+    <ClInclude Include="includes\stb_image.h" />
     <ClInclude Include="includes\vec.h" />
     <ClInclude Include="includes\vertexarray.h" />
     <ClInclude Include="includes\vertexbuffer.h" />
