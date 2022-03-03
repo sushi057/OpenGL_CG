@@ -33,6 +33,11 @@ public:
     VertexBufferLayout() :
         m_Stride(0) { }
 
+    /*template<typename T>
+    void push(unsigned int count) {
+        // static_assert(false);
+    }*/
+
     void AddFloat(unsigned int count) { Push(GL_FLOAT, count, GL_FALSE); }
     void AddUnsignedInt(unsigned int count) { Push(GL_UNSIGNED_INT, count, GL_FALSE); }
     void AddUnsignedByte(unsigned int count) { Push(GL_UNSIGNED_BYTE, count, GL_TRUE); }
