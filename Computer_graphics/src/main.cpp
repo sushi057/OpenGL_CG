@@ -32,7 +32,8 @@ int main(void)
         glfwTerminate();
         return -1;
     }
-
+       // this is  a comment to check smth
+    std::cout << "Hello" << std::endl;
     /* Opengl settings and Make the window's context current */
     glfwMakeContextCurrent(window);
 
